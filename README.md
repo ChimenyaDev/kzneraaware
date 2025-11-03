@@ -15,7 +15,7 @@ The programmes are structured under three strategic units:
 3. **Communications**: Aims to raise awareness and promote transparency.
 
 ## Brand Colors
-- **Navy Blue**: `#003B5C`
+- **Navy Blue**: `#003B5C`   
 - **Forest Green**: `#00843D`
 - **Bright Orange**: `#F7941D`
 
@@ -58,7 +58,8 @@ Future updates will focus on expanding programme offerings, improving user engag
 
 ## Contact Information
 For further details about the KZNERA project, please reach out:
-- **Email**: info@kznera.org
-- **Phone**: +27 12 345 6789
+- **Email**: info@kznera.org.za
+- **Phone**: +27 31 302 0600
+- **Phone**: +27 33 345 2714
 
-For more details, please refer to our official website: [KZNERA.org](http://kznera.org)
+For more details, please refer to our official website: [KZNERA.org.za](http://kznera.org.za)
