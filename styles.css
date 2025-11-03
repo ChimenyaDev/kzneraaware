@@ -1,0 +1,103 @@
+:root {
+    --navy-blue: #003B5C;
+    --forest-green: #00843D;
+    --bright-orange: #F7941D;
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+    --transition: 0.3s ease;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: var(--navy-blue);
+    color: white;
+    padding: var(--spacing-medium);
+    text-align: center;
+}
+
+nav {
+    margin: var(--spacing-medium) 0;
+}
+
+nav a {
+    color: white;
+    padding: var(--spacing-small);
+    text-decoration: none;
+    transition: background var(--transition);
+}
+
+nav a:hover {
+    background: var(--bright-orange);
+}
+
+.hero {
+    background: var(--forest-green);
+    color: white;
+    padding: var(--spacing-large);
+    text-align: center;
+}
+
+.units {
+    display: flex;
+    justify-content: space-around;
+    padding: var(--spacing-large);
+}
+
+.unit {
+    border: 2px solid;
+    padding: var(--spacing-medium);
+    width: 30%;
+}
+
+.unit.green {
+    border-color: var(--forest-green);
+}
+
+.unit.orange {
+    border-color: var(--bright-orange);
+}
+
+.unit.navy {
+    border-color: var(--navy-blue);
+}
+
+.impact-metrics {
+    padding: var(--spacing-large);
+}
+
+.partnerships {
+    background: var(--navy-blue);
+    color: white;
+    padding: var(--spacing-large);
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .units {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        cursor: pointer;
+        background: var(--bright-orange);
+        color: white;
+        padding: var(--spacing-small);
+        border: none;
+        transition: background var(--transition);
+    }
+
+    .mobile-nav-toggle:hover {
+        background: var(--navy-blue);
+    }
+}
